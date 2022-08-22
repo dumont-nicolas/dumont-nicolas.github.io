@@ -475,6 +475,7 @@ table {
 .hero h3 {
 	font-size: 20px;
 	margin:0;
+	margin-left: 7px;
 	padding:0;
 	opacity:0.5;
 	color: #E04343;
