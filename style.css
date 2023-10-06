@@ -1,9 +1,20 @@
-div{
-  height: 98vh;
-  width: 100%;
-  background: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+.content {
+    display: grid;
+    margin-top: 20rem;
+    margin-left: 40rem;
+    margin-right: 8%;
+  }
+
+  @media (max-width: 480px) {
+    .content {
+        margin-top: 70%;
+        margin-left: 10%;
+        margin-right: 8%;
+        display: grid;
+      }
+
+    .content img {
+        height: 100%;
+        width: 100%;
+    }
 }
